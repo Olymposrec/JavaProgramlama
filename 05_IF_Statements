@@ -1,0 +1,62 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ıfstatements;
+
+/**
+ *
+ * @author melih
+ */
+public class IfStatements {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        //IF STATEMENTS
+        
+        int x=5, y=4,z=8;
+        System.out.println("z:"+ z);
+        System.out.println("x:"+x);
+        System.out.println("y:"+y);
+        
+        
+        x=x+1;
+        System.out.println("x=x+1:"+x);
+        
+        x++;
+        System.out.println("x++:"+x);
+       
+        x+=1;
+         System.out.println("x+1:"+x);
+     
+        
+        System.out.println("x<y:"+(x<y));
+        System.out.println("x>y:"+ (x>y));
+        System.out.println("x!=y:"+(x!=y));
+        System.out.println("x==y:"+(x==y));
+        System.out.println("x<=y:"+(x<=y));
+        System.out.println("x>=y:"+(x>=y));
+        
+        //  "OR ||" AND "AND &&"
+        System.out.println("x>y || x<y:" +(x>y || x<y));
+        System.out.println("x>y && x<y:" +(x>y && x<y));
+        
+        //IF STATEMENTS
+        
+        if(x<z)
+            System.out.println("Z is Bigger.");
+        else if(x>z)
+            System.out.println("X is Bigger");
+        else
+            System.out.println("X = Z");
+            
+        
+        
+    }
+    
+}

@@ -1,0 +1,66 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaexamples;
+
+/**
+ *
+ * @author melih
+ */
+public class JavaExamples {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        //Variables
+
+        //Integer
+        int age=20, x=5, y=10;
+        System.out.println(x*y);
+        System.out.println(y/x);
+        System.out.println(age*20);
+
+        //Double
+        double z=5.0, a=11.0;
+        System.out.println(a/z);
+        
+        //LONG - FLOAT
+        long q=10;
+        float w=10.0f;
+        System.out.println(q);
+        System.out.println(w);
+        
+        //UFAK ORNEK
+        double pi=3.14,r=5;
+        System.out.println("Dairenin cevresi:");
+        System.out.println(2*pi*r);
+
+        //Strings
+        String name="Melih Akkose";
+        String nickname="Olymposrec";
+        System.out.println(name+" "+nickname);
+
+        //Boolean
+        boolean durum=true;
+        int i=0;
+        System.out.println("Boolean İfade Durumu: "+durum);
+        do{
+            
+            System.out.println(i);
+            i++;
+            if(i>5)
+                durum=false;
+        }
+        while(durum==true);
+        System.out.println("Boolean İfade Durumu: "+durum);
+
+        //Final
+       final int myInt=5;
+        System.out.println("Ilk Deger:"+ myInt);
+        System.out.println("Hello World!");
+    }   
+}

@@ -1,0 +1,89 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package arrays;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+/**
+ *
+ * @author melih
+ */
+public class Arrays {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        //Arrays
+        String[] myArray=new String[4];
+        myArray[0]="Melih";
+        myArray[1]="Olymposrec";
+        myArray[2]="Akkose";
+        myArray[3]="JR Developer";
+        
+        System.out.println(myArray);
+        System.out.println(myArray[0]);
+        System.out.println(myArray[1]);
+        System.out.println(myArray[2]);
+        System.out.println(myArray[3]);
+        
+        int[] myInteger=new int[3];
+        myInteger[0]=6;
+        myInteger[1]=8;
+        myInteger[2]=2020;
+        
+        System.out.println("Date:"+myInteger[0]+"/"+myInteger[1]+"/"+myInteger[2]);
+        
+        int[] myNumbers={0,1,2,3,4,5,6,7,8,9};
+        System.out.println(myNumbers[2]);
+        
+        //LISTS
+        ArrayList<String> myFootballPlayer=new ArrayList<>();
+        myFootballPlayer.add("Atiba Hutchinson");
+        myFootballPlayer.add("Mario Gomez");
+        myFootballPlayer.add("Ricardo Quaresma");
+        myFootballPlayer.add("Simao Sabrosa");
+        myFootballPlayer.add(4,"Kunn Aguero");
+       
+        
+        System.out.println(myFootballPlayer.get(0));
+        System.out.println(myFootballPlayer.get(1));
+        System.out.println(myFootballPlayer.get(2));
+        System.out.println(myFootballPlayer.get(3));
+        System.out.println(myFootballPlayer.get(4));
+        System.out.println(myFootballPlayer.size());
+        
+        
+        //HASHSET
+        
+        HashSet<String> mySet=new HashSet<String>();
+        mySet.add("James");
+        mySet.add("James");
+        System.out.println(mySet.size());
+        
+        
+        //HASHMAP
+        HashMap<String, String> myHashMap=new HashMap<String, String>();
+        myHashMap.put("name", "Carlos");
+        myHashMap.put("surname", "Ricardo");
+        
+        System.out.println(myHashMap.get("name"));
+        System.out.println(myHashMap.get("surname"));
+        
+        HashMap<String, Integer> mySecondMap =new HashMap<>();
+        
+        mySecondMap.put("run", 100);
+        mySecondMap.put("basketball", 200);
+        
+        System.out.println(mySecondMap.get("run"));
+        System.out.println(mySecondMap.get("basketball"));
+    }
+    
+}
